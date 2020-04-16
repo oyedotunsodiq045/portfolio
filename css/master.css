@@ -25,7 +25,6 @@ body {
 .header {
   height: 190px;
   margin-top: 100px;
-  margin-bottom: 20px;
 }
 
 .profile_pic,
@@ -66,19 +65,23 @@ h4 {
   color: #000000;
 }
 
-.far,
+/* .far,
 .fab {
   color: #ff0000;
-}
+} */
 
-.fab {
+/* .fab {
   font-size: 25px;
+} */
+
+.fab:hover,
+.far:hover,
+.fas:hover {
+  color: red;
+  /* color: #0066ff; */
 }
 
-.fab:hover {
-  color: #0066ff;
-}
-
+.header,
 .content_1,
 .content_2,
 .content_3,
@@ -130,15 +133,47 @@ ul.a {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #ff0000; /* Set a background color */
+  background-color: #942323; /* Set a background color */
   color: #fff; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
 }
 
 #myBtn:hover {
   background-color: #fff; /* Add a dark-grey background on hover */
-  color: #ff0000;
+  color: #942323;
+}
+
+#fa_icon_20,
+#fa_icon_18,
+#fa_icon_16,
+#fa_icon_14,
+#fa_color_black {
+  color: black;
+}
+
+#fa_icon_20:hover,
+#fa_icon_18:hover,
+#fa_icon_16:hover,
+#fa_icon_14:hover,
+#fa_color_black:hover {
+  color: red;
+}
+
+#fa_icon_20 {
+  font-size: 20px;
+}
+
+#myBtn,
+#fa_icon_18 {
+  font-size: 18px; /* Increase font size */
+}
+
+#fa_icon_16 {
+  font-size: 16px;
+}
+
+#fa_icon_14 {
+  font-size: 14px;
 }
