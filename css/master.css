@@ -1,140 +1,144 @@
 html {
-    background: url(../images/background_1.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  body {
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 300;
-  }
-  
-  .content {
-    background-color: white; /* rgba(0,0,0,0.7); */
-    color: black;
-    padding: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 800px;
-  }
-  
-  .header {
-    height: 190px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-  }
-  
-  .profile_pic {
-    float: left;
-    border-radius: 50%;
-    height: 175px;
-    width: 175px;
-  }
-  
-  .pull-left {
-    float: left;
-    text-align: left;
-  }
-  
-  .pull-right {
-    float: right;
-    text-align: right;
-  }
-  
-  .sm_font {
-    float: right;
-    padding-left: 100px;
-  }
-  
-  li {
-    list-style-type: none;
-    line-height: 1.6;
-  }
-  
-  h1, h4 {
-    color: #000000;
-  }
-  
-  .far {
-    color: #ff0000;
-  }
-  
-  .fab {
-    font-size: 25px;
-    color: #ff0000;
-  }
-  
-  .fab:hover {
-    color: #0066ff;
-  }
-  
-  .content_1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 380px;
-  }
-  
-  .content_2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 240px;
-  }
-  
-  .content_3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 220px;
-  }
-  
-  .content_4 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 485px;
-  }
-  
-  .content_5 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 145px;
-  }
-  
-  .content_6 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 885px;
-  }
-  
-  .content_7 {
-    margin-top: 20px;
-    margin-bottom: 100px;
-    height: 510px;
-  }
-  
-  ul.a {
-    list-style-type: circle;
-  }
-  
-  #myBtn {
-      display: none; /* Hidden by default */
-      position: fixed; /* Fixed/sticky position */
-      bottom: 20px; /* Place the button at the bottom of the page */
-      right: 30px; /* Place the button 30px from the right */
-      z-index: 99; /* Make sure it does not overlap */
-      border: none; /* Remove borders */
-      outline: none; /* Remove outline */
-      background-color: #ff0000; /* Set a background color */
-      color: #fff; /* Text color */
-      cursor: pointer; /* Add a mouse pointer on hover */
-      padding: 15px; /* Some padding */
-      border-radius: 10px; /* Rounded corners */
-      font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-      background-color: #fff; /* Add a dark-grey background on hover */
-      color: #ff0000;
-  }
-  
+  background: url(../images/background_1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+}
+
+.content {
+  background-color: white; /* rgba(0,0,0,0.7); */
+  color: black;
+  padding: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+}
+
+.header {
+  height: 190px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.profile_pic,
+.pull-left {
+  float: left;
+}
+
+.profile_pic {
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+}
+
+.pull-left {
+  text-align: left;
+}
+
+.pull-right,
+.sm_font {
+  float: right;
+}
+
+.pull-right {
+  text-align: right;
+}
+
+.sm_font {
+  padding-left: 100px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.6;
+}
+
+h1,
+h4 {
+  color: #000000;
+}
+
+.far,
+.fab {
+  color: #ff0000;
+}
+
+.fab {
+  font-size: 25px;
+}
+
+.fab:hover {
+  color: #0066ff;
+}
+
+.content_1,
+.content_2,
+.content_3,
+.content_4,
+.content_5,
+.content_6,
+.content_7 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content_1 {
+  height: 380px;
+}
+
+.content_2 {
+  height: 240px;
+}
+
+.content_3 {
+  height: 220px;
+}
+
+.content_4 {
+  height: 485px;
+}
+
+.content_5 {
+  height: 200px;
+}
+
+.content_6 {
+  height: 885px;
+}
+
+.content_7 {
+  height: 510px;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #ff0000; /* Set a background color */
+  color: #fff; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #fff; /* Add a dark-grey background on hover */
+  color: #ff0000;
+}
