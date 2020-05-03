@@ -8,8 +8,9 @@ html {
 
 body {
   /* font-family: 'Courier New', Courier, monospace; */
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
-    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-family: 'Bookman Old Style';
+  /* font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif; */
   font-weight: 300;
 }
 
@@ -106,15 +107,15 @@ h4 {
 }
 
 .content_4 {
-  height: 485px;
+  height: 500px;
 }
 
 .content_5 {
-  height: 200px;
+  height: 210px;
 }
 
 .content_6 {
-  height: 885px;
+  height: 900px;
 }
 
 .content_7 {
