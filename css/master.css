@@ -37,6 +37,7 @@ body {
   border-radius: 50%;
   height: 175px;
   width: 175px;
+  /* filter:blur(8px) */
 }
 
 .pull-left {
@@ -177,4 +178,12 @@ ul.a {
 
 #fa_icon_14 {
   font-size: 14px;
+}
+
+#whatsapp, 
+#mobile, 
+#gmail, 
+#yahoomail {
+  text-decoration: none;
+  color: #000000;
 }
