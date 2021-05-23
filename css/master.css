@@ -180,10 +180,12 @@ ul.a {
   font-size: 14px;
 }
 
-#whatsapp, 
-#mobile, 
-#gmail, 
-#yahoomail {
+#removeTextDecor {
   text-decoration: none;
   color: #000000;
+}
+
+#removeTextDecorColorBlue {
+  text-decoration: none;
+  color: steelblue;
 }
