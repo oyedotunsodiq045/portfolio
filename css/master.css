@@ -90,7 +90,8 @@ h4 {
 .content_4,
 .content_5,
 .content_6,
-.content_7 {
+.content_7,
+.content_8 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -121,6 +122,10 @@ h4 {
 
 .content_7 {
   height: 660px;
+}
+
+.content_8 {
+  height: 100px;
 }
 
 ul.a {

@@ -1,6 +1,6 @@
 // EXAMINE THE DOCUMENT OBJECT //
 
-console.dir(document)
+// console.dir(document)
 // console.dir(document.domain)
 // console.dir(document.URL)
 // console.dir(document.title)
@@ -52,10 +52,10 @@ var lastChild = document.querySelector('li:last-child')
 var underline = document.querySelectorAll('#underline')
 
 console.log(underline);
-console.log(firstChild);
-console.log(lastChild);
+// console.log(firstChild);
+// console.log(lastChild);
 
-underline.style.borderBottom = 'solid 4px'
+underline.style.borderBottom = "4px solid black"
 firstChild.style.color = "red"
 lastChild.style.color = "green"
 
